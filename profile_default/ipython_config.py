@@ -56,7 +56,6 @@ c.InteractiveShellApp.exec_lines = [
 c.InteractiveShellApp.extensions = [
     # 'line_profiler_ext',
     # 'memory_profiler_ext',
-    'example',
     'columnize_dir_magic',
     'type_magic',
     'from_import_all_magic',
