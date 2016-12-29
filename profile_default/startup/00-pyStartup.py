@@ -27,12 +27,12 @@ readline.parse_and_bind('tab: complete')
 
 
 #history file
-if 'nt' == _os.name:
+if 'nt' == os.name:
     histfile = ''
     # histfile = os.path.join(P_OFFICE,
     #                          'emacs/.emacs.d/data_e/code/python/interpreter/'
     #                          '.pythistory')
-elif 'posix' == _os.name:
+elif 'posix' == os.name:
     histfile = os.path.join(os.environ['HOME'],
                             '.emacs.d/data_e/code/python/interpreter/'
                             '.pythistory')
