@@ -76,7 +76,7 @@ class ColumnizeDirMagic(Magics):
             else:
                 member = ColumnizeDirMagic._fore_white_reset(name)
             results.append(member)
-        print(columnize(results, displaywidth=110))[:-2] # trim '\\n'
+        print(columnize(results, displaywidth=110))
 
     # fore
     @classmethod
